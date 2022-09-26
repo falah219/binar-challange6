@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challange 3</title>
+
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/stylesheet.css">
+
+    <!-- Font famiy-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Header and Navbar -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark nav-style bdNavbar">
+                <div class="container-fluid">
+
+                    <!-- Gambar Logo -->
+                    <div class="navbar-header ">
+                        <a class="navbar-brand ml-5 px-5 py-3" href="/">LOGO</a>
+                    </div>
+
+                    
+
+                    <!-- Menu Pertama-->
+                    <div class="collapse navbar-collapse " id="navleft">
+                        
+                            <a href="/" class="nav-item nav-link ml-5 px-4 active" id="home">Home</a>
+                            <a href="#" class="nav-item nav-link px-4 active" id="work">Work</a>
+                            <a href="#" class="nav-item nav-link px-4 active" id="contact">Contact</a>
+                            <a href="#" class="nav-item nav-link px-4 active" id="about">About Me</a>
+
+                        <ul class="navbar navbar-nav m-auto px-4">
+                            <li><a href="login" class="nav-item nav-link ml-4 px-2 active">Login</a></li>
+                            <li><a href="register" class="nav-item nav-link ml-4 px-2 active">Sign up</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Menu Navigasi -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navleft" 
+                        aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon bg-warning"></span>
+                    </button>
+                    
+                </div>
+                        
+        </nav>
+
+        <!-- Header & Navbar Section -->
+
+        <div class="row row-cols-1 ml-1 header-info">
+            <div class="col-12 header-info-col">
+                <h1 class="header-title-info text-center">PLAY TRADITIONAL GAME</h1>
+                <h3 class="header-mini-info text-center">Experience new traditional gameplay</h3>
+                <div class="text-center"><a href="login" class="btn btn-warning btn-lg header-info-button">Play Now</a></div>
+            </div>
+            <div class="col-12 align-self-end story-scroll-down">
+                <div class="text-center"><a href="#gallery" class="header-scroll-link-wrapper"><p>Scroll disini</p><i class="bi"></i></a></div>
+            </div>
+        </div>        
+    </header>
+    <!-- End of Header and Navbar-->
+
+    <!-- About and Gallery -->
+    <section class="container gallery" id="gallery">
+        
+            <div class="row gallery-content">
+                <div class="col-md-5 gallery-left-side">
+                    <p class="p-info">What's So Special</p>
+                    <h1 class="h1-info">THE GAMES</h1>
+                </div>
+                
+                <div class="col-md-7 gallery-right-side">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" class="rounded-cirle"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/rockpaperstrategy-1600.jpg" class="gallery.img" width="100%" height="auto">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev gallery-left-icon" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden"><img src="assets/switch-left.svg" width="20px"></span>
+                        </button>
+                        <button class="carousel-control-next gallery-right-icon" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="hidden"><img src="assets/switch-right.svg" width="20px"></span>
+                        </button>
+                        </div>
+                    
+                </div>
+            </div>
+        
+    </section>
+
+    <!-- Game Features -->
+    <section class="game">
+        <div class="container">
+            <div class="row justify-content-end game-contents pt-xl-5">
+                <div class="col-4">
+                    <p class="p-info">What's So Special ? </p>
+                    <h1 class="h1-info">FEATURES</h1>
+                </div>
+            </div>
+            <div class="row justify-content-end">
+                <div class="col-5 p-xl-5 p-5">
+                    <div class="row m-2">
+                        <div class="col-2 ">
+                            <img src="assets/ellipse.svg" class="img-game">
+                        </div>
+                        <div class="col" >
+                            <h2 class="h2-info-yellow">FEATURES</h2>
+                            <p class="p-info-white">if you miss your chilhood, we provide many traditional games here</p> 
+                        </div>
+                    </div>
+                    <div class="row m-2">
+                        <div class="col-2 ">
+                            <img src="assets/ellipse-outline.svg" class="img-game">
+                        </div>
+                        <div class="col" >
+                            <h2 class="h2-info-yellow">GAME SUITS</h2> 
+                        </div>
+                    </div>
+                    <div class="row m-2">
+                        <div class="col-2 ">
+                            <img src="assets/ellipse-outline.svg" class="img-game">
+                        </div>
+                        <div class="col" >
+                            <h2 class="h2-info-yellow">TBD</h2> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- System Requirements -->
+    <section class="requirement">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-info requirement-info text-center">Can My Computer Run this game ?</p>
+                </div>
+                <div class="col-lg-7">
+                    <h1 class="h1-info requirement-info mb-3">SYSTEM REQUIREMENTS</h1>
+                </div>
+                <div class="col-lg-6">
+                    <table class="table table-bordered" >
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <h2 class="h2-info-yellow">OS:</h2>
+                                    <p class="p-info-white-2">Windows 7 64-bit only (No OSX support at this time</p> 
+                                </td>
+                                <td>
+                                    <h2 class="h2-info-yellow">PROCESSOR:</h2>
+                                    <p class="p-info-white-2">Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @ 2.8 GHZ</p> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h2 class="h2-info-yellow">MEMORY:</h2>
+                                    <p class="p-info-white-2">4 GB RAM</p> 
+                                </td>
+                                <td>
+                                    <h2 class="h2-info-yellow">STORAGE:</h2>
+                                    <p class="p-info-white-2">8 GB AVAILABLE SPACE</p> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <h2 class="h2-info-yellow">GRAPHICS:</h2>
+                                    <p class="p-info-white-2">NVIDIA GeForce GTX 660 2GB or 
+                                        AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5) </p> 
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TOP SCORES -->
+    <section class="score">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 score-left-side">
+                    <h1 class="h1-info score-info">TOP SCORES</h1>
+                    <p class="p-info-white">This top score from various games provided on this platform</p>
+                    <button class="btn btn-warning">see more</button>
+                </div>
+                <div class="col-md-7 cards-info">
+                    <div class="row">
+                        <div class="col-md-8 offset-md-5 score-right-side">
+                            <div class="card bg-dark">
+                                <div class="card-header">
+                                    <table class="table table-borderless">
+                                        <tr>
+                                            <td>
+                                                <img src="assets/evan-lahti.jpg" width="50px" class="rounded-circle img-fluid float-left img-card">
+                                                <img src="assets/twitter-card.png"  width="10%" class="img-fluid float-right">
+                                                <h2 class="h2-card">Evan Lahti</h2>
+                                                <p class="p-card">PC Gamer</p>
+                                            </td>
+                                                
+                                            
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="card-body">
+                                    <p class="p-card-body">“One of my gaming highlights of the year.”</p>
+                                </div> 
+                                <div class="card-footer">
+                                    <p class="p-card-footer">18 June, 2021</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 offset-md-2 score-right-side">
+                            <div>
+                                <div class="card bg-dark">
+                                    <div class="card-header">
+                                        <table class="table table-borderless">
+                                            <tr>
+                                                <td>
+                                                    <img src="assets/jada-griffin.jpg" width="50px" class="rounded-circle img-fluid float-left img-card">
+                                                    <img src="assets/twitter-card.png"  width="10%" class="img-fluid float-right">
+                                                    <h2 class="h2-card">Jada Griffin</h2>
+                                                    <p class="p-card">Nerdreactor</p>
+                                                </td>
+                                                    
+                                                
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="p-card-body">“The next big thing in the world of streaming and survival games.”</p>
+                                    </div> 
+                                    <div class="card-footer">
+                                        <p class="p-card-footer">10 July, 2021</p>
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+                        <div class="col-md-8 offset-md-5 score-right-side">
+                            <div class="card bg-dark">
+                                <div class="card-header">
+                                    <table class="table table-borderless">
+                                        <tr>
+                                            <td>
+                                                <img src="assets/aaron-williams.jpg" width="50px" class="rounded-circle img-fluid float-left img-card">
+                                                <img src="assets/twitter-card.png"  width="10%" class="img-fluid float-right">
+                                                <h2 class="h2-card">Aaron Williams</h2>
+                                                <p class="p-card">Uproxx</p>
+                                            </td>
+                                                
+                                            
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="card-body">
+                                    <p class="p-card-body">“Snoop Dogg Playing The Wildly Entertaining ‘SOS’ Is Ridiculous.”</p>
+                                </div> 
+                                <div class="card-footer">
+                                    <p class="p-card-footer">24 December, 2018</p>
+                                </div>
+                            </div>
+                        </div>                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+                <div class="row">
+                    <div class="col-md-6 newsletter-left-side">
+                        <div>
+                            <img src="assets/skull.png" width="80%">
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 newsletter-right-side jarak-newsletter-right-side">
+                        <div class="col-md-4 align-self-md-start">
+                            <p class="p-newsletter-info">want to stay in touch ?</p>
+                        </div>
+                        <div class="col-md-12 jarak-newsletter-right-side">
+                            <h1 class="h1-info">NEWSLETTER SUBSCRIBE</h1>
+                        </div>
+                        <div class="col-md-12 jarak-newsletter-right-side">
+                            <p class="p-newsletter-info2">In order to start receiving our news, all you have to do is enter your email address. 
+                                Everything else will be taken care of by us. We will send you emails containing information about game. 
+                                We don’t spam.</p>
+                        </div>
+                        <div class="col-md-12">
+                            <form>
+                                <div class="form-group row">
+                                    <div class="col-md-8">
+                                        <input type="input" class="form-control placeholder bg-dark" id="inputPassword" placeholder="youremail@binar.co.id">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <button type="submit" class="btn btn-warning">Subscribe Now</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="offset-2 col-md-7">
+                    <div class="row">
+                        <p><a class="nav-item nav-link px-3 active" href="#">MAIN</a></p>
+                        <p><a class="nav-item nav-link px-3 active" href="#">ABOUT</a></p>
+                        <p><a class="nav-item nav-link px-3 active" href="#">GAME FEATURES</a></p>
+                        <p><a class="nav-item nav-link px-3 active" href="#">SYSTEM REQUIREMENTS</a></p>
+                        <p><a class="nav-item nav-link px-3 active" href="#">QUOTES</a></p>
+                    </div>                                                                
+                </div>
+                        
+                
+                <div class="col-md-3">
+                    <div class="row justify-content-end">
+                        <a class="nav-item nav-link active px-2" href="#"><img src="assets/facebook.svg"></a>
+                        <a class="nav-item nav-link active px-2" href="#"><img src="assets/twitter.svg"></a>
+                        <a class="nav-item nav-link active px-2" href="#"><img src="assets/vector.svg"></a>
+                        <a class="nav-item nav-link active px-2" href="#"><img src="assets/twitch.svg"></a>                             
+                    </div>
+                </div>
+            </div>
+
+            <hr color="white">
+
+            <div class="row">
+                <div class="col-md-4 justify-content-start">
+                    <div class="d-inline">
+                        <p class="p-info-footer">© 2018 Your Games, inc. All Rights Reserved</p>
+                    </div>
+                </div>
+                <div class="col-md-5 offset-md-3 justify-content-end">
+                    <div class="d-inline">
+                        <a class="footer-link" href="#">PRIVACY POLICY |</a>
+                        <a class="footer-link" href="#">TERMS OF SERVICE |</a>
+                        <a class="footer-link" href="#">CODE OF CONDUCT |</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>

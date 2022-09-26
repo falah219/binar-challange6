@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challange 3</title>
+
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+
+    <!-- Font famiy-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Header and Navbar -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark nav-style bdNavbar">
+                <div class="container-fluid">
+
+                    <!-- Gambar Logo -->
+                    <div class="navbar-header ">
+                        <a class="navbar-brand ml-5 px-5 py-3" href="/">LOGO</a>
+                    </div>
+
+                    
+
+                    <!-- Menu Pertama-->
+                    <div class="collapse navbar-collapse " id="navleft">
+                        
+                            <a href="/" class="nav-item nav-link ml-5 px-4 active" id="home">Home</a>
+                            <a href="#" class="nav-item nav-link px-4 active" id="work">Work</a>
+                            <a href="#" class="nav-item nav-link px-4 active" id="contact">Contact</a>
+                            <a href="#" class="nav-item nav-link px-4 active" id="about">About Me</a>
+
+                        <ul class="navbar navbar-nav m-auto px-4">
+                            <li><a class="nav-item nav-link ml-4 px-2 active">Login</a></li>
+                            <li><a class="nav-item nav-link ml-4 px-2 active">Sign up</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Menu Navigasi -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navleft" 
+                        aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon bg-warning"></span>
+                    </button>
+                    
+                </div>
+                        
+        </nav>
+
+        <!-- Header & Navbar Section -->
+        <!-- <%- isFalse %>  -->
+        <div class="row">
+            <div class="col d-flex justify-content-center form-info header-info">
+                <form method="post" action="/login">
+                    <h2>Silahkan Login</h2>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label" style="width: 20em">Username</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="username"> 
+                        
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" name="password">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Role</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1" name="role">
+                    </div>
+
+                    <% if (isFalse) {%>
+                        <p style="color: rgb(253, 43, 2); ">Username/Password anda tidak benar kisanak!</p>
+                    <% } %> 
+
+                    <button type="submit" class="btn btn-warning" value="submit" id="button">Submit</button>
+                    
+                </form>
+                
+            </div>
+            
+        </div>        
+    </header>
+    <!-- End of Header and Navbar-->
+
+    
+    <!-- Footer -->
+    <footer class="footer-login">
+        <div class="container">
+            <div class="row">
+                <div class="offset-2 col-md-7">
+                    <div class="row">
+                        <p><a class="nav-item nav-link px-3 active" href="#">MAIN</a></p>
+                        <p><a class="nav-item nav-link px-3 active" href="#">ABOUT</a></p>
+                        <p><a class="nav-item nav-link px-3 active" href="#">GAME FEATURES</a></p>
+                        <p><a class="nav-item nav-link px-3 active" href="#">SYSTEM REQUIREMENTS</a></p>
+                        <p><a class="nav-item nav-link px-3 active" href="#">QUOTES</a></p>
+                    </div>                                                                
+                </div>
+                        
+                
+                <div class="col-md-3">
+                    <div class="row justify-content-end">
+                        <a class="nav-item nav-link active px-2" href="#"><img src="assets/facebook.svg"></a>
+                        <a class="nav-item nav-link active px-2" href="#"><img src="assets/twitter.svg"></a>
+                        <a class="nav-item nav-link active px-2" href="#"><img src="assets/vector.svg"></a>
+                        <a class="nav-item nav-link active px-2" href="#"><img src="assets/twitch.svg"></a>                             
+                    </div>
+                </div>
+            </div>
+
+            <hr color="white">
+
+            <div class="row">
+                <div class="col-md-4 justify-content-start">
+                    <div class="d-inline">
+                        <p class="p-info-footer">© 2018 Your Games, inc. All Rights Reserved</p>
+                    </div>
+                </div>
+                <div class="col-md-5 offset-md-3 justify-content-end">
+                    <div class="d-inline">
+                        <a class="footer-link" href="#">PRIVACY POLICY |</a>
+                        <a class="footer-link" href="#">TERMS OF SERVICE |</a>
+                        <a class="footer-link" href="#">CODE OF CONDUCT |</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    </script>
+</body>
+</html>
